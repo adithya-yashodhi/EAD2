@@ -1,0 +1,91 @@
+.question-container {
+    margin: 10px 10px 10px 10px;  
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0 0 20px ;
+}
+
+label {
+    display: block;
+    margin: 1px 0;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.question-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Style odd-numbered question boxes with one color */
+.question-box:nth-child(odd) {
+    background-color: #bbe8e5;
+  }
+  
+ 
+.question-box:nth-child(even) {
+    background-color: #a5c8c5; 
+}
+.button-container {
+    text-align: center;
+  }
+.submit-button, close-button {
+    background-color: #1eb2a6;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 18px;
+}
+  
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+  
+.modal-content {
+    margin-top: 80px;
+    text-align: center;
+}
+ 
+.close-button {
+    background-color: #1eb2a6;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 18px;
+}
+  
+.modal-content h2{
+    margin: 0;
+    font-size: 50px;
+} 
+ 
+.modal-content p {
+    margin-top: 20px;
+}
+ 
+  

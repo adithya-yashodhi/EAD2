@@ -1,0 +1,41 @@
+.coursesCard {
+    padding: 50px 0;
+}
+.coursesCard .items {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #DFDFDF;
+    border-radius: 6px;
+}
+.coursesCard img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%
+}
+.coursesCard .text {
+    margin-left: 15px;
+    text-align: left;
+} 
+.coursesCard .text h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.coursesCard .details .box {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.outline-btn {
+    
+    box-shadow: none;
+    padding: 10px 24px;
+    border: 2px solid #1eb2a6;
+    background-color: #1eb2a6;
+    color: #fff;
+    transition: 0.5s;
+    margin: 30px 10px 0 0;
+    border-radius: 3px;
+    width: 60%;   
+}  

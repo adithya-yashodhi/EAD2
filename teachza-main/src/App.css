@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+.row{
+  width: 50%;
+}
+
+button{
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #1eb2a6;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
+}
+
+button:hover{
+  box-shadow: none;
+}
+
+.primary-btn{
+  background-color: #1eb2a6;
+  color: #fff;
+  margin: 30px 10px 0 0;
+}
+
+#heading{
+  text-align: center;
+  padding: 40px 0;
+}
+
+#heading h3{
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+
+#heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.back{
+  background-image: url("../public/images/lesson.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color:#fff;
+  text-align: center;
+}
+
+.back h1 {
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.back h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.margin {
+  margin-top: 40.3%;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+/* Login */
+
+.app-container {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.auth-form-container {
+  max-width: 500px;
+  padding: 70px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.05);;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  
+}
+
+.login-title {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  color: rgb(63, 169, 169);
+}
+
+.link-btn {
+  color: #073a36;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+.link-btn:hover {
+  text-decoration: underline;
+}
+
+.login-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #073a36;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
